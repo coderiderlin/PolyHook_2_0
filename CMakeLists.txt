@@ -179,7 +179,7 @@ endif()
 # add WALL + PDB flags
 if(MSVC)
   # apply wall flags only to plh src files
-  set_property(SOURCE ${SOURCE_FILES_PLH} PROPERTY COMPILE_FLAGS "/MP /W4 /WX /Z7")
+  set_property(SOURCE ${SOURCE_FILES_PLH} PROPERTY COMPILE_FLAGS "/MP /W4 /WX /Z7 /WX-")
   target_link_libraries(PolyHook_2 optimized -DEBUG) # mhhm ya pdbs
 
   # force static lib
