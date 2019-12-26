@@ -9,7 +9,7 @@ option(FEATURE_EXCEPTION "Implement all exception hooking functionality" ON)
 option(FEATURE_VIRTUALS "Implement all virtual table hooking functionality" ON)
 option(FEATURE_INLINENTD "Support inline hooks without specifying typedefs by generating callback stubs at runtime with AsmJit" ON)
 option(FEATURE_PE "Implement all win pe hooking functionality" ON)
-option(BUILD_DLL "Build dll & lib instead of tests" OFF)
+option(BUILD_DLL "Build dll & lib instead of tests" ON)
 option(BUILD_STATIC "If BUILD_DLL is set, create the type that can be statically linked" ON)
 option(CAPSTONE_FULL "Build all features of capstone." OFF)
 
